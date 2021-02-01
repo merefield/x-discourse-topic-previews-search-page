@@ -1,0 +1,53 @@
+.tiles-grid {
+  margin-top: 15px;
+  padding: 0 10px 0 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 15px;
+  grid-template-rows: auto;
+
+
+.tiles-grid-item {
+  box-sizing: border-box;
+  cursor: pointer;
+  float:top;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  padding:10px;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+   "category"
+   "photo"
+   "tags"
+}
+
+.topic-category{
+  grid-area: category;
+  padding: 0 0 4px 0;
+}
+
+.topic-thumbnail{
+  grid-area: photo;
+  padding: 0 0 4px 0;
+}
+
+.thumbnail {
+  .no-thumbnail {
+    display: none;
+  }
+}
+
+.topic-tags {
+  grid-area: tags;
+
+  .discourse-tags {
+      display: inline-block;
+  }
+}
+
+.list-tags {
+  padding-right: 10px;
+}
+}
