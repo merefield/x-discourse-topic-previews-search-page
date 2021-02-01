@@ -1,0 +1,4 @@
+plugins:
+  search_previews_enabled:
+    default: true
+    client: true
