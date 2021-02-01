@@ -5,3 +5,4 @@
 Bug list is now [managed here](https://thepavilion.io/tags/c/open-source/bug-reports/topic-list-previews)
 
 Feature requests are now [managed here](https://thepavilion.io/tags/c/open-source/feature-requests/topic-list-previews)
+# x-discourse-topic-previews-search-page
