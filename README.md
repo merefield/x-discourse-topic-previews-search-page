@@ -1,8 +1,5 @@
-# discourse-topic-previews
+# discourse-topic-previews-search-page
 
-[See further here](https://meta.discourse.org/t/topic-list-previews/101646).
+presents thumbnails on the search page
 
-Bug list is now [managed here](https://thepavilion.io/tags/c/open-source/bug-reports/topic-list-previews)
-
-Feature requests are now [managed here](https://thepavilion.io/tags/c/open-source/feature-requests/topic-list-previews)
-# x-discourse-topic-previews-search-page
+requires discourse-topic-previews

@@ -1,4 +1,4 @@
-.tiles-grid {
+.fps-tiles-grid {
   margin-top: 15px;
   padding: 0 10px 0 10px;
   display: grid;
@@ -7,7 +7,7 @@
   grid-template-rows: auto;
 
 
-.tiles-grid-item {
+.fps-grid-item {
   box-sizing: border-box;
   cursor: pointer;
   float:top;
@@ -18,18 +18,18 @@
   grid-template-columns: 1;
   grid-template-rows: auto auto auto;
   grid-template-areas:
-   "category"
-   "photo"
+   "fpscategory"
+   "fpsphoto"
    "tags"
-}
 
-.topic-category{
-  grid-area: category;
+}
+.fps-topic-category {
+  grid-area: fpscategory;
   padding: 0 0 4px 0;
 }
 
 .topic-thumbnail{
-  grid-area: photo;
+  grid-area: fpsphoto;
   padding: 0 0 4px 0;
 }
 
@@ -50,4 +50,7 @@
 .list-tags {
   padding-right: 10px;
 }
+
 }
+
+  
