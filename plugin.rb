@@ -1,5 +1,4 @@
 register_asset 'stylesheets/search_previews_common.scss'
-register_asset 'stylesheets/search_previews_mobile.scss'
 
 enabled_site_setting :search_previews_enabled
 
