@@ -1,3 +1,9 @@
+# name: x-discourse-topic-previews-search-page
+# about: Adds thumbnail previews and gallery styling to the full page search page.
+# version: 1.0
+# authors: Robert Barrow
+# url: https://github.com/merefield/x-discourse-topic-previews-seach-page
+
 register_asset 'stylesheets/search_previews_common.scss'
 
 enabled_site_setting :search_previews_enabled
