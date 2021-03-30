@@ -28,6 +28,11 @@
 .fps-topic-header {
   grid-area: fpsheader;
   padding: 0 0 4px 0;
+
+  .topic-title {
+    font-size: 1em;
+    line-height: 1;
+  }
 }
 
 .fps-topic-category {
