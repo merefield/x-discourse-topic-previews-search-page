@@ -1,6 +1,7 @@
 # name: x-discourse-topic-previews-search-page
 # about: Adds thumbnail previews and gallery styling to the full page search page.
-# version: 1.0
+# version: 1.1
+# contact emails: robert@thepavilion.io
 # authors: Robert Barrow
 # url: https://github.com/merefield/x-discourse-topic-previews-seach-page
 

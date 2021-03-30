@@ -1,26 +1,26 @@
 <div class="fps-result fps-grid-item">
   <div class="fps-topic-category">
-    {{#if result.topic.category.parentCategory}}
-    {{category-link result.topic.category.parentCategory}}
+    {{#if post.topic.category.parentCategory}}
+    {{category-link post.topic.category.parentCategory}}
     {{/if}}
-    {{category-link result.topic.category hideParent=true}}
+    {{category-link post.topic.category hideParent=true}}
     {{plugin-outlet name="full-page-search-category" args=(hash result=result)}}
   </div>
   <div class="fps-topic-thumbnail">
-    {{#if result.topic.thumbnails}}
-    <a href={{result.url}} {{action "logClick" result.topic_id}} class="search-link">
-      {{raw "list/topic-thumbnail" topic=result.topic thumbnails=result.topic.thumbnails category=result.topic.category
+    {{#if post.topic.thumbnails}}
+    <a href={{post.url}} {{action "logClick" post.topic_id}} class="search-link">
+      {{raw "list/topic-thumbnail" topic=post.topic thumbnails=post.topic.thumbnails category=post.topic.category
       opts=thumbnailOpts}}
     </a>
     {{else}}
-    <a href={{result.userPath}} data-user-card={{result.username}}>
+    <a href={{post.userPath}} data-user-card={{post.username}}>
       {{avatar result imageSize="large"}}
     </a>
     {{/if}}
   </div>
   <div class='fps-topic-tags'>
-    {{#if result.topic}}
-    {{discourse-tags result.topic}}
+    {{#if post.topic}}
+    {{discourse-tags post.topic}}
     {{/if}}
   </div>
 </div>
