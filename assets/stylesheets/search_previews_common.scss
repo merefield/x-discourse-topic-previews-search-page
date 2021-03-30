@@ -18,11 +18,18 @@
   grid-template-columns: 1;
   grid-template-rows: auto auto auto;
   grid-template-areas:
+   "fpsheader"
    "fpscategory"
    "fpsphoto"
    "tags"
 
 }
+
+.fps-topic-header {
+  grid-area: fpsheader;
+  padding: 0 0 4px 0;
+}
+
 .fps-topic-category {
   grid-area: fpscategory;
   padding: 0 0 4px 0;

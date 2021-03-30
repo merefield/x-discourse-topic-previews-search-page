@@ -1,4 +1,18 @@
 <div class="fps-result fps-grid-item">
+  <div class="fps-topic-header">
+    <a href={{post.url}} {{action "logClick" post.topic_id}} class="search-link">
+    {{raw "topic-status" topic=post.topic showPrivateMessageIcon=true}}
+    <span class="topic-title">
+      {{#if post.useTopicTitleHeadline}}
+        {{html-safe post.topicTitleHeadline}}
+      {{else}}
+        {{#highlight-search highlight=q}}
+          {{html-safe post.topic.fancyTitle}}
+        {{/highlight-search}}
+      {{/if}}
+    </span>
+    </a>
+  </div>
   <div class="fps-topic-category">
     {{#if post.topic.category.parentCategory}}
     {{category-link post.topic.category.parentCategory}}
